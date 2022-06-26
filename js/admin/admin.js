@@ -44,7 +44,7 @@
       $(this).closest('.formrow').remove();
   });
 
-  $('.repeat_field').on('keyup','.itemqty',function(e){
+  $('.repeat_field').on('keyup blur','.itemqty',function(e){
 
     e.preventDefault();
     var html="";
